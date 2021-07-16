@@ -42,7 +42,7 @@ key = data[1]
 
 # 初めてのadd
 if  dic==None:
-    dic = first_add()
+    sys.exit("sw : No Switch role history\nPlease login https://aws.amazon.com/")
 
 if len(args)==3:
     account_id, role_name, view_name, color = parse_data(args[2])
