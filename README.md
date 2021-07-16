@@ -4,7 +4,7 @@ This script controle AWS Switch Role from Google Chrome cookies.
 
 # Requirement
 
-- Python 3.8.5
+- Python 3
 ```
 pycryptodome           3.10.1
 keyring                23.0.1
