@@ -41,7 +41,7 @@ key = data[1]
 
 
 # 初めてのadd
-if 'ba' not in dic:
+if  dic==None:
     dic = first_add()
 
 if len(args)==3:
