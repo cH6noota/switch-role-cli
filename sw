@@ -23,7 +23,7 @@ else:
 try:
     second_args = args[1]
 except:
-    print("aws-sl: args not found")
+    print("sw: args not found")
     sys.exit()
 
 if second_args == "ls":
