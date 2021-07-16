@@ -1,0 +1,6 @@
+usage:　
+    sw ls ... Switch role list
+    sw add <arn> ... Switch role add (arn optional)
+    sw del <index> ... Switch role delete (index optional)
+    sw profile <user number> ... Change browser user (user number optional)
+    sw output ... aws/config format output
