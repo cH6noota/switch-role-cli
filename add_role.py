@@ -28,6 +28,21 @@ def ramdom_color():
     s = '%02x%02x%02x' % (r, g, b)
     return s.upper()
 
+def first_add():
+    print("No Switch role history")
+    account_id = input("Account id or Account alias:")
+    role_name = input("User name :")
+    return {'bn': role_name, 'ba': account_id , 'rl': []}
+
+
+data = chrome_cookies()
+dic= data[0]
+key = data[1]
+
+
+# 初めてのadd
+if 'ba' not in dic:
+    dic = first_add()
 
 if len(args)==3:
     account_id, role_name, view_name, color = parse_data(args[2])
@@ -45,10 +60,6 @@ new = { 'a': account_id,
         'd': view_name,
         'c': color
     }
-
-data = chrome_cookies()
-dic= data[0]
-key = data[1]
 
 
 dic["rl"].append(new)
