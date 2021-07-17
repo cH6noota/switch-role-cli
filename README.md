@@ -18,7 +18,11 @@ keyring                23.0.1
 # Installation
 
 ```shell
-bash install.sh
+$ bash install.sh
+# zsh shell 
+$ source ~/.zshrc
+# bash shell
+$ source ~/.bashrc
 ```
 
 

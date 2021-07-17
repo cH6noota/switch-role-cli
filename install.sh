@@ -15,3 +15,4 @@ set +eu
 st=`echo ${SHELL}  | cut -d '/' -f 3`
 echo 'export PATH="$HOME/.aws-sw:$PATH"' >>  $HOME"/."$st"rc"
 source $HOME"/."$st"rc"
+echo 'Run the following command : source "'$HOME'/.'$st'rc"'

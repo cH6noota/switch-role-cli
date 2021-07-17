@@ -41,3 +41,6 @@ elif second_args == "output":
     import output
 elif "help" in second_args :
     import help
+else :
+    print("sw: args not found")
+    sys.exit()
