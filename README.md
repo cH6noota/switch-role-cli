@@ -43,6 +43,8 @@ Index  Account id         Role name                    View name                
 
 ## Switch role add
 
+**Please be Web browser is terminated.***
+
 ```shell
 # ARN option
 $ sw add arn:aws:iam::123456789012:role/switch-target-role
@@ -59,6 +61,8 @@ Color [Enter(ramdom)]:
 ```
 
 ## Switch role delete
+
+**Please be Web browser is terminated.***
 
 ```shell
 $ sw del 0                                                
