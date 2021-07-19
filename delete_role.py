@@ -6,7 +6,7 @@ from Crypto.Cipher import AES
 import sqlite3
 from module import *
 import sys
-from git_controle import *
+# from git_controle import *
 
 def val_isit(l, index):  
     index= int(index) if isint(index) else None
@@ -77,4 +77,4 @@ conn.close()
 
 
 message = "{}:{} add ".format(index, target["d"])
-git_add(message)
+#git_add(message)

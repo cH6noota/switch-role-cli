@@ -4,7 +4,7 @@ from Crypto.Util.Padding import pad
 from Crypto.Cipher import AES
 import sqlite3
 import sys
-from git_controle import *
+# from git_controle import *
 import random
 
 args = sys.argv
@@ -86,6 +86,6 @@ conn.commit()
 conn.close()
 
 message = "{}:{} add ".format(account_id, view_name)
-git_add(message)
+# git_add(message)
 
 
