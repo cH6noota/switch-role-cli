@@ -15,13 +15,13 @@ def parse_data(arn_origin):
         account_id = arn.split(":")[0]
         role_name = arn.split("/")[1]
         view_name = input("View name :")
-        color = input("Color [Enter(ramdom)]:")
+        color = input("Color [Enter(random)]:")
     except:
         print("Not arn format: {}".format(arn_origin))
         sys.exit()
     return account_id, role_name, view_name, color
 
-def ramdom_color():
+def random_color():
     r = random.randint(0, 255)
     g = random.randint(0, 255)
     b = random.randint(0, 255)
@@ -50,10 +50,10 @@ else:
     account_id = input("Account id :")
     role_name = input("Role name :")
     view_name = input("View name :")
-    color = input("Color [Enter(ramdom)]:")
+    color = input("Color [Enter(random)]:")
 while view_name=="":
     view_name = input("Try view name :")
-color = color if color !="" else ramdom_color()
+color = color if color !="" else random_color()
 
 new = { 'a': account_id,
         'r': role_name,
