@@ -43,7 +43,7 @@ Index  Account id         Role name                    View name                
 
 ## Switch role add
 
-**Please be Web browser is terminated.***
+**Please be Web browser is terminated.**
 
 ```shell
 # ARN option
@@ -62,7 +62,7 @@ Color [Enter(ramdom)]:
 
 ## Switch role delete
 
-**Please be Web browser is terminated.***
+**Please be Web browser is terminated.**
 
 ```shell
 $ sw del 0                                                
